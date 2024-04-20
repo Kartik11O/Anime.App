@@ -1,0 +1,110 @@
+#footer {
+  width: 100%;
+  height: 18.4vh;
+}
+#Container-footer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#Name {
+  position: relative;
+  width: 68vw;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #28282b;
+}
+#Name-box {
+  width: 20vw;
+  height: 14vh;
+  border-right: 2px solid #6b7280;
+}
+#Name-box ul {
+  padding: 0;
+  margin: 0;
+  padding-bottom: 19px;
+}
+#Name-box ul li {
+  list-style: none;
+}
+.s1 {
+  line-height: 25px;
+  font-size: 2.3rem;
+}
+.s2 {
+  line-height: 45px;
+  font-size: 3.3rem;
+}
+#Para-box {
+  width: 44vw;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#Para {
+  width: 42vw;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: rgb(40, 40, 43);
+  padding: 12px;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#Info {
+  position: relative;
+  width: 20vw;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#Info-box {
+  position: relative;
+  width: 14vw;
+  height: 13vh;
+  display: flex;
+  justify-content: end;
+}
+#Info ul {
+  padding: 0;
+  margin: 0;
+}
+#Info ul li {
+  list-style: none;
+  text-align: right;
+}
+.F1 {
+  font-size: 1.2rem;
+  color: #bbb;
+}
+.F2 {
+  font-size: 1.4rem;
+}
+#btn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 1.5rem;
+  color: rgb(187, 187, 187);
+  font-weight: bolder;
+  padding: 5px 18px;
+  background: rgb(0, 0, 0);
+  outline: none;
+  border: none;
+  transition: 0.3s;
+  cursor: pointer;
+}
+#btn:hover {
+  background-color: #bbb;
+  color: #000;
+}
