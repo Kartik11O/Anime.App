@@ -3,7 +3,7 @@
   bottom: 0;
   width: 100%;
   height: 48vh;
-  background-color: #0000008f;
+  background-color: #000000d9;
 }
 #ContainerS2 {
   width: 100%;
@@ -24,7 +24,93 @@
   object-fit: cover;
 }
 #Content-Container {
+  position: relative;
   width: 100%;
   height: 25.2vh;
-  background-color: blue;
+  /* background-color: blue; */
+  display: flex;
+  color: #dddddd;
+}
+#Poster-Container {
+  position: relative;
+  width: 14.5vw;
+  height: 100%;
+}
+#Poster {
+  position: absolute;
+  width: 12vw;
+  height: 33vh;
+  top: -110px;
+  left: 41px;
+}
+#Poster-IMG {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#Text-Container {
+  width: 85vw;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+#Info-Anime {
+  width: 34vw;
+  height: 100%;
+}
+#Info-Anime ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+#Info-Anime ul li {
+}
+#Headline-Name {
+  position: relative;
+  margin: auto;
+  font-size: 1.7rem;
+  height: max-content;
+  width: 34vw;
+  padding: 7px 3px;
+}
+.I1 {
+  font-size: 1.4rem;
+  padding: 9px 7px;
+}
+#Headline-Name::before {
+  content: "";
+  position: absolute;
+  width: 100vw;
+  height: 1px;
+  background-color: rgb(255, 255, 255);
+  bottom: 0;
+}
+#Info-Para {
+  font-size: 19px;
+  overflow-y: scroll;
+  height: 15vh;
+  margin: auto;
+  padding: 11px 6px;
+  width: 32.9vw;
+}
+#Video-Container {
+  width: 31vw;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.Video-ContainerIN {
+  width: 15vw;
+  height: 18vh;
+  margin-top: 2rem;
+}
+.Video {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
 }
