@@ -1,0 +1,29 @@
+html {
+  font-size: 50%;
+}
+#Content-Container {
+  overflow-x: scroll;
+}
+#SEC-2 {
+  bottom: -139px;
+}
+
+#Headline-Name {
+  margin: 0;
+}
+#Info-Para {
+  font-size: 13px;
+  width: clamp(330.67px, 32.9vw, 643.67px);
+  height: clamp(115px, 26vh, 115px);
+  padding: 5px 6px;
+  height: clamp(112px, 24vh, 112px);
+  margin-left: 0px;
+}
+#Poster {
+  position: absolute;
+  top: 0px;
+  left: 4px;
+  height: 177px;
+  width: 126px;
+  z-index: 999999;
+}

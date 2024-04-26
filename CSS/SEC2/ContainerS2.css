@@ -1,13 +1,13 @@
 #SEC-2 {
   position: absolute;
   bottom: 0;
-  width: 100%;
-  height: 48vh;
+  width: clamp(300px, 100%, 1917px);
+  height: clamp(295px, 48vh, 441px);
   background-color: #000000d9;
 }
 #ContainerS2 {
-  width: 100%;
-  height: 48vh;
+  width: clamp(233px, 100%, 1917px);
+  height: clamp(295px, 48vh, 441px);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,7 +15,7 @@
 }
 #Banner {
   width: 100%;
-  height: 23vh;
+  height: clamp(126px, 23vh, 211px);
   background-color: pink;
 }
 #imgBanner {
@@ -26,20 +26,19 @@
 #Content-Container {
   position: relative;
   width: 100%;
-  height: 25.2vh;
-  /* background-color: blue; */
+  height: clamp(230px, 25.2vh, 230px);
   display: flex;
   color: #dddddd;
 }
 #Poster-Container {
   position: relative;
-  width: 14.5vw;
+  width: clamp(278px, 14.5vw, 278px);
   height: 100%;
 }
 #Poster {
   position: absolute;
-  width: 12vw;
-  height: 33vh;
+  width: clamp(230px, 12vw, 230px);
+  height: clamp(303px, 33vh, 303px);
   top: -110px;
   left: 41px;
 }
@@ -49,13 +48,13 @@
   object-fit: cover;
 }
 #Text-Container {
-  width: 85vw;
+  width: clamp(300px, 85vw, 1632px);
   height: 100%;
   display: flex;
   align-items: center;
 }
 #Info-Anime {
-  width: 34vw;
+  width: clamp(652px, 34vw, 652px);
   height: 100%;
 }
 #Info-Anime ul {
@@ -70,8 +69,9 @@
   margin: auto;
   font-size: 1.7rem;
   height: max-content;
-  width: 34vw;
+  width: max-content;
   padding: 7px 3px;
+  margin-left: 0;
 }
 .I1 {
   font-size: 1.4rem;
@@ -88,13 +88,13 @@
 #Info-Para {
   font-size: 19px;
   overflow-y: scroll;
-  height: 15vh;
+  height: clamp(125px, 13vh, 141px);
   margin: auto;
   padding: 11px 6px;
-  width: 32.9vw;
+  width: clamp(330.67px, 32.9vw, 643.67px);
 }
 #Video-Container {
-  width: 31vw;
+  width: clamp(400px, 31vw, 595px);
   height: 100%;
   display: flex;
   justify-content: center;
@@ -102,9 +102,12 @@
   gap: 10px;
 }
 .Video-ContainerIN {
-  width: 15vw;
-  height: 18vh;
+  width: clamp(288px, 15vw, 288px);
+  height: clamp(103px, 16vh, 147px);
   margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 .Video {
   width: 100%;

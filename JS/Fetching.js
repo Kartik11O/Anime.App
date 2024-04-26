@@ -2,7 +2,7 @@ import { AddingToBody } from "./AddToBody.js"
 import { Meo_Api, Anilist_Api, query } from "./Api.js"
 
 var UserUrl = ""
-const Input = document.getElementById("InputField")
+const Input = document.getElementById("InputBar")
 
 
 async function GettingIMG() {
@@ -52,30 +52,31 @@ async function Fetching(formData) {
 
 
 
-document.getElementById('file').addEventListener('change', handleFileSelect);
-function handleFileSelect(event) {
-  const file = event.target.files[0];
-  if (file) {
-    removeNodes()
-    GettingIMG()
-  } else {
-    console.log('No file selected');
-  }
-}
-// Add event listener for the 'keypress' event
+// document.getElementById('file').addEventListener('change', handleFileSelect);
+// function handleFileSelect(event) {
+//   const file = event.target.files[0];
+//   if (file) {
+//     removeNodes()
+//     GettingIMG()
+//   } else {
+//     console.log('No file selected');
+//   }
+// }
+// // Add event listener for the 'keypress' event
 window.addEventListener('keypress', function (event) {
   if (event.key === 'Enter') {
-    removeNodes()
+    // removeNodes()
     Fetching()
+    console.log("User Enter url")
   }
 });
 
-function removeNodes() {
-  document.getElementById("Banner").remove()
-  document.getElementById("Poster").remove()
-  document.getElementById("Details").remove()
-}
+// function removeNodes() {
+//   document.getElementById("Banner").remove()
+//   document.getElementById("Poster").remove()
+//   document.getElementById("Details").remove()
+// }
 export { UserUrl }
 
 
-$("")
+// $("")

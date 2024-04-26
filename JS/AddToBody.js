@@ -25,50 +25,48 @@ function AddingToBody(Meo_One, Ani_Data) {
 }
 function BodyHTML(Ep, similarity, TimeStart, Poster, Banner, Info, Video, Name_R, Name_E) {
   let Body = `
- <button id="btn2">X</button>
+       <div id="ContainerS2">
+                <div id="Banner">
+                    <img id="imgBanner"
+                        src="${Banner}" alt="">
+                </div>
+                <div id="Content-Container">
+                    <div id="Poster-Container">
+                        <div id="Poster">
+                            <img id="Poster-IMG"
+                                src="${Poster}"
+                                alt="">
+                        </div>
+                    </div>
+                    <div id="Text-Container">
+                        <div id="Info-Anime">
+                            <ul>
+                                <li>
+                                    <h1 id="Headline-Name">${Name_E || Name_R}</h1>
+                                </li>
+                                <li><span class="I1">EP${Ep}</span> <span class="I1">at${TimeStart}</span> <span
+                                        class="I1"></span> <span class="I1">${similarity}%</span></li>
+                                <li>
+                                    <p id="Info-Para">${Info}</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="Video-Container">
+                            <div class="Video-ContainerIN">
+                                <img id="V1" class="Video"
+                                    src="${UserUrl}" data-img >
+                            </div>
+                            <div class="Video-ContainerIN">
+                                <video id="V2" class="Video"
+                                    src="${Video}">
+                            </div>
 
-      <div id="Banner" class=" h-[22vh] w-full bg-red-500 absolute" style="top: 0;">
-        <img src="${Banner}" class="h-full w-full object-cover" alt="" />
-      </div>
-      <div id="Poster" class=" bottom-[2rem] left-[1rem] h-[34vh] w-[12vw] bg-white relative mb-[6rem] "
-        style="top: 3rem; ">
-        <img src="${Poster}" class="h-full w-full object-cover" alt="" />
-      </div>
-      <div id="Details" class="h-[27vh] w-[86vw] flex items-end" style="margin-left: 2.3rem">
-        <div id="Name" class=" h-[27vh] w-[33vw]">
-          <ul class="text-OffWhite ">
-            <li>
-              <h1 id="border-line"
-                class="text-[2.1rem] leading-[59px] font-name font-bold h-[5.7vh] relative w-[max-content]  ">
-                ${Name_R
-    ||
-    Name_E}
-              </h1>
-            </li>
-            <li class="font-name flex gap-[28px] text-[1.5rem] pl-[7px]">
-              <span>Ep${Ep}</span><span>at${TimeStart}</span>
-              <span>2020</span> <span>${similarity}%</span>
-            </li>
-            <li>
-              <p id="Text" class="font-name w-[33vw] pl-[7px]">${Info}</p>
-            </li>
-          </ul>
-        </div>
-        <div id="result" class="h-[20vh] mt-[0px] ml-[13px]  flex gap-[17px]" style="width: clamp(300px, 34vw, 652px);">
-          <div id="UserIMG" class=" h-[18vh] relative flex justify-center items-start flex-col text-[17px] text-center"
-            style="width: clamp(300px, 16vw, 307px);;">
-            <img src="" alt="" class="w-full h-[16vh] pt-[8px] object-cover" data-img>
-            <span id="UserIMG--Name" class=" text-OffWhite">Your Image</span>
-          </div>
-          <div id="resultIMG"
-            class=" h-[18vh] relative flex justify-center items-start flex-col text-[17px] text-center"
-            style="width:clamp(300px, 16vw, 307px); ;">
-            <video class="w-full h-[16vh] pt-[8px] object-cover" src="${Video}" autoplay="true" loop="true"></video>
-            <span id="UserIMG--Name" class=" text-OffWhite">Search Image</span>
-          </div>
-        </div>
-      </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
     `
+  console.log(UserUrl)
   AddingBodyToHTML(Body)
 }
 

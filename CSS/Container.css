@@ -1,7 +1,7 @@
 #Container {
   position: relative;
-  width: 95%;
-  height: 71vh;
+  width: clamp(300px, 95%, 1821px);
+  height: clamp(300px, 71vh, 652px);
   background-color: red;
   margin: auto;
   border-radius: 16px;
