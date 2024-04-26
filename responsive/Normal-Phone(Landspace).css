@@ -7,6 +7,9 @@ html {
 #Headline-Name {
   margin: 0;
 }
+#Text-Container {
+  width: clamp(531px, 79.7vw, 531px);
+}
 #Info-Para {
   font-size: 13px;
   width: clamp(330.67px, 32.9vw, 643.67px);

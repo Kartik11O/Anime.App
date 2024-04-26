@@ -62,7 +62,7 @@ async function Fetching(formData) {
 //     console.log('No file selected');
 //   }
 // }
-// // Add event listener for the 'keypress' event
+// Add event listener for the 'keypress' event
 window.addEventListener('keypress', function (event) {
   if (event.key === 'Enter') {
     // removeNodes()
@@ -70,6 +70,16 @@ window.addEventListener('keypress', function (event) {
     console.log("User Enter url")
   }
 });
+
+// const inputField = document.getElementById('InputBar');
+// setTimeout(() => {
+//   inputField.addEventListener('paste', (event) => {
+//     event.preventDefault();
+//     console.log("running")
+//     Fetching()
+//   });
+
+// }, 2000);
 
 // function removeNodes() {
 //   document.getElementById("Banner").remove()
