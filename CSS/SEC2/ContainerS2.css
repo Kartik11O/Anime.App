@@ -4,6 +4,7 @@
   width: clamp(300px, 100%, 1917px);
   height: clamp(295px, 48vh, 441px);
   background-color: #000000d9;
+  display: none;
 }
 #ContainerS2 {
   width: clamp(233px, 100%, 1917px);

@@ -1,29 +1,84 @@
 html {
   font-size: 50%;
+  overflow-y: hidden;
 }
-#Content-Container {
-  overflow-x: scroll;
+body {
+  overflow-y: hidden;
+}
+#InputBar-Container {
+  width: clamp(285px, 319vw, 300px);
+}
+#Logo-Container {
+  width: clamp(60px, 19vw, 72px);
+  padding: 4px;
+  font-size: 1.6rem;
+  margin-right: 0px;
+}
+#Options-Container {
+  display: none;
 }
 #SEC-2 {
-  bottom: -139px;
+  height: clamp(582px, 69vh, 582px);
 }
-
-#Headline-Name {
-  margin: 0;
+#ContainerS2 {
+  height: clamp(582px, 69vh, 582px);
 }
-#Info-Para {
-  font-size: 13px;
-  width: clamp(330.67px, 32.9vw, 643.67px);
-  height: clamp(115px, 26vh, 115px);
-  padding: 5px 6px;
-  height: clamp(112px, 24vh, 112px);
-  margin-left: 0px;
+#InputBar {
+  width: clamp(250px, 63vw, 265px);
+}
+#Container-footer {
+  overflow-x: scroll;
+}
+#Content-Container {
+  flex-direction: column;
+  height: 53vh;
+  justify-content: start;
+  align-items: center;
+  /* background: rebeccapurple; */
+}
+#Poster-Container {
+  position: relative;
+  width: clamp(278px, 14.5vw, 278px);
+  height: 25vh;
 }
 #Poster {
   position: absolute;
-  top: 0px;
-  left: 4px;
-  height: 177px;
-  width: 126px;
-  z-index: 999999;
+  width: clamp(190px, 12vw, 230px);
+  height: clamp(228px, 33vh, 303px);
+  top: -82px;
+  left: 41px;
+}
+#Text-Container {
+  height: 24vh;
+  width: 93vw;
+  text-align: center;
+}
+#Info-Para {
+  width: clamp(352.67px, 32.9vw, 643.67px);
+  margin-left: 0;
+  font-size: 13px;
+  padding: 3px 6px;
+}
+
+#Headline-Name {
+  font-size: 1.9rem;
+  margin: auto;
+  border-bottom: 1px solid #bbb;
+}
+.I1 {
+  font-size: 2rem;
+  padding: 1px 7px;
+  margin: 3px 0px;
+  display: inline-block;
+}
+#Video-Container {
+  display: none;
+}
+#Headline-Name::before {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  background-color: rgb(255, 255, 255);
+  bottom: 0;
 }
