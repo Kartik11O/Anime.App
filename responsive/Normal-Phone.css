@@ -14,11 +14,10 @@ body {
   font-size: 1.6rem;
   margin-right: 0px;
 }
+
 #SEC-1 {
-  height: clamp(573px, 81.6vh, 749.89px);
-}
-#Container {
-  margin-bottom: 14px;
+  height: clamp(543px, 81.6vh, 749.89px);
+  margin-bottom: 10px;
 }
 #Options-Container {
   display: none;

@@ -52,16 +52,15 @@ async function Fetching(formData) {
 
 
 
-// document.getElementById('file').addEventListener('change', handleFileSelect);
-// function handleFileSelect(event) {
-//   const file = event.target.files[0];
-//   if (file) {
-//     removeNodes()
-//     GettingIMG()
-//   } else {
-//     console.log('No file selected');
-//   }
-// }
+document.getElementById('file').addEventListener('change', handleFileSelect);
+function handleFileSelect(event) {
+  const file = event.target.files[0];
+  if (file) {
+    GettingIMG()
+  } else {
+    console.log('No file selected');
+  }
+}
 // Add event listener for the 'keypress' event
 window.addEventListener('keypress', function (event) {
   if (event.key === 'Enter') {

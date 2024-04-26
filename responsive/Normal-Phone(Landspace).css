@@ -26,3 +26,7 @@ html {
   width: 126px;
   z-index: 999999;
 }
+main {
+  position: relative;
+  height: inherit;
+}

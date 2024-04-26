@@ -7,12 +7,12 @@ body {
 }
 #SEC-1 {
   width: clamp(300px, 100%, 1917px);
-  height: clamp(397px, 81.6vh, 749.89px);
+  height: clamp(345px, 81.6vh, 749.89px);
 }
 nav {
   position: relative;
   width: clamp(300px, 97vw, 1862px);
-  height: clamp(91px, 10vh, 91px);
+  height: clamp(35px, 10vh, 91px);
   display: flex;
   justify-content: space-between;
   align-items: center;
