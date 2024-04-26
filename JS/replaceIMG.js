@@ -1,13 +1,12 @@
 function handleViewportWidth() {
-    let IMG = "IMG/GET ANIME BY IMAGE.png"
+    let NormalIMG = "IMG/up.png"
+    let PhoneIMG = "IMG/up2.png"
     const screenWidth = window.innerWidth;
     if (screenWidth <= 480) {
-        $("#img").attr('src', IMG)
-        $("video[Data-Video]").attr('src', Videoarr[i])
-        console.log("Viewport width is 480px or less");
+        $("#img").attr('src', PhoneIMG)
+
     } else {
-        // Viewport width is larger than 480px
-        // Add your code here to do something else
-        console.log("Viewport width is larger than 480px");
+        $("#img").attr('src', NormalIMG)
     }
 }
+window.addEventListener("resize", handleViewportWidth);

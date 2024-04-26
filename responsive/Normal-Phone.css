@@ -18,11 +18,7 @@ body {
   height: clamp(573px, 81.6vh, 749.89px);
 }
 #Container {
-  background-image: url(/IMG/GET\ ANIME\ BY\ IMAGE.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: 99;
+  margin-bottom: 14px;
 }
 #Options-Container {
   display: none;
