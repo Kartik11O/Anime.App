@@ -2,8 +2,8 @@
   position: absolute;
   top: 4%;
   right: 2%;
-  height: 4vh;
-  width: 3vw;
+  height: clamp(38px, 4vh, 38px);
+  width: clamp(57px, 3vw, 57px);
   outline: none;
   border: none;
   background: #413e3e;

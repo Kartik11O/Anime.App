@@ -61,16 +61,20 @@ body {
   top: -82px;
   left: 41px;
 }
+#btn2 {
+  width: 37px;
+  height: 26px;
+}
 #Text-Container {
   height: 24vh;
   width: 93vw;
   text-align: center;
 }
 #Info-Para {
-  width: clamp(352.67px, 32.9vw, 643.67px);
-  margin-left: 0;
-  font-size: 13px;
-  padding: 3px 6px;
+  width: clamp(308.67px, 32.9vw, 643.67px);
+  font-size: 10px;
+  padding: 0px;
+  margin: auto;
 }
 
 #Headline-Name {
