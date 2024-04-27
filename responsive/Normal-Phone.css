@@ -8,6 +8,9 @@ body {
 #InputBar-Container {
   width: clamp(285px, 319vw, 300px);
 }
+#Info-box {
+  margin-right: 8px;
+}
 #Logo-Container {
   width: clamp(60px, 19vw, 72px);
   padding: 4px;
@@ -29,7 +32,7 @@ body {
   height: clamp(582px, 69vh, 582px);
 }
 #InputBar {
-  width: clamp(250px, 63vw, 265px);
+  width: clamp(237px, 63vw, 265px);
 }
 #Container-footer {
   overflow-x: scroll;
