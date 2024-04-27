@@ -1,0 +1,9 @@
+.s2 {
+  font-size: 2.2rem;
+}
+#btn {
+  width: clamp(230px, 12vw, 230px);
+}
+#Name-box {
+  width: clamp(266px, 15vw, 266px);
+}

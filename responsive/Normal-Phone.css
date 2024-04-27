@@ -17,7 +17,10 @@ body {
   font-size: 1.6rem;
   margin-right: 0px;
 }
-
+.s2 {
+  font-size: 2.3rem;
+  line-height: 11px;
+}
 #SEC-1 {
   height: clamp(543px, 81.6vh, 749.89px);
   margin-bottom: 10px;
@@ -33,6 +36,8 @@ body {
 }
 #InputBar {
   width: clamp(237px, 63vw, 265px);
+  height: 1vh;
+  font-size: 11px;
 }
 #Container-footer {
   overflow-x: scroll;

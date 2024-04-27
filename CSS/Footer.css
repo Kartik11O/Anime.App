@@ -20,7 +20,7 @@
   color: #28282b;
 }
 #Name-box {
-  width: clamp(220px, 20vw, 386px);
+  width: clamp(154px, 20vw, 386px);
   height: clamp(92px, 14vh, 128px);
   border-right: 2px solid #6b7280;
 }
@@ -96,7 +96,8 @@
   font-size: 1.5rem;
   color: rgb(187, 187, 187);
   font-weight: bolder;
-  padding: 5px 18px;
+  padding: 5px 5px;
+  width: clamp(114px, 12vw, 230px);
   background: rgb(0, 0, 0);
   outline: none;
   border: none;

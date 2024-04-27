@@ -30,3 +30,7 @@ main {
   position: relative;
   height: inherit;
 }
+.s2 {
+  font-size: 2.4rem;
+  line-height: 9px;
+}
