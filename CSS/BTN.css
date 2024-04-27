@@ -3,11 +3,17 @@
   top: 4%;
   right: 2%;
   height: 4vh;
-  width: 5vw;
+  width: 3vw;
   outline: none;
   border: none;
   background: #413e3e;
   color: #fff;
   border-radius: 1rem;
   font-size: 1.3rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#btn2:hover {
+  background-color: #bbb;
+  color: #000;
 }

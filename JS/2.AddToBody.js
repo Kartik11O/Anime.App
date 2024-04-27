@@ -74,9 +74,6 @@ function BodyHTML(Ep, similarity, TimeStart, Poster, Banner, Info, Video, Name_R
 function AddingBodyToHTML(Body) {
   document.getElementById("SEC-2").innerHTML = Body
 }
-function removeNodes() {
-  document.getElementById("SEC-2").removeChild()
-  console.log("ss")
-}
+
 
 export { AddingToBody }

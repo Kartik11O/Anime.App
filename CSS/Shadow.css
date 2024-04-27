@@ -4,7 +4,7 @@
   align-items: center;
   width: 100vw;
   height: 100%;
-
+  animation: opacity 0.3s both;
   div {
     width: 2rem;
     height: 2rem;
@@ -22,7 +22,11 @@
     }
   }
 }
-
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+}
 @keyframes bounce {
   to {
     opacity: 0.3;
@@ -34,16 +38,7 @@
 }
 @keyframes Showw {
   0% {
+    opacity: 0;
     transform: translateY(100px);
   }
 }
-
-/* // const inputField = document.getElementById('InputBar');
-// setTimeout(() => {
-//   inputField.addEventListener('paste', (event) => {
-//     event.preventDefault();
-//     console.log("running")
-//     Fetching()
-//   });
-
-// }, 2000); */
