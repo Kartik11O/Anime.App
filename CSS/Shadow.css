@@ -37,3 +37,13 @@
     transform: translateY(100px);
   }
 }
+
+/* // const inputField = document.getElementById('InputBar');
+// setTimeout(() => {
+//   inputField.addEventListener('paste', (event) => {
+//     event.preventDefault();
+//     console.log("running")
+//     Fetching()
+//   });
+
+// }, 2000); */
