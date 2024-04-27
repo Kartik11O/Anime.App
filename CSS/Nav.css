@@ -4,6 +4,8 @@ body {
   box-sizing: border-box;
   font-family: var(--Headline) !important;
   font-weight: bold;
+
+  overflow-y: scroll !important;
 }
 #SEC-1 {
   width: clamp(300px, 100%, 1917px);
