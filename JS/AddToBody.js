@@ -15,6 +15,7 @@ function AddingToBody(Meo_One, Ani_Data) {
     let Name_E = item.anilist.title.english
     let Name_R = item.anilist.title.romaji
     let Ep = item.episode
+    console.log(Name_E, 'dd')
     let Video = item.video
     let similarity = (item.similarity * 100).toFixed(2)
     let TimeStart = (item.from / 60).toFixed(2)
@@ -25,7 +26,7 @@ function AddingToBody(Meo_One, Ani_Data) {
 }
 function BodyHTML(Ep, similarity, TimeStart, Poster, Banner, Info, Video, Name_R, Name_E) {
   let Body = `
-       <div id="ContainerS2">
+       <div id="ContainerS2" class="animation">
                 <div id="Banner">
                     <img id="imgBanner"
                         src="${Banner}" alt="">
@@ -72,10 +73,13 @@ function BodyHTML(Ep, similarity, TimeStart, Poster, Banner, Info, Video, Name_R
 
 function AddingBodyToHTML(Body) {
   document.getElementById("SEC-2").innerHTML = Body
-
-  Thing()
+  removeNodes()
+  // Thing()
 }
-
+function removeNodes() {
+  document.getElementById("SEC-2").removeChild()
+  console.log("ss")
+}
 function Thing() {
   $("img[data-img]").attr('src', UserUrl)
   // $("img[data-img]").attr('src', imageUrl)

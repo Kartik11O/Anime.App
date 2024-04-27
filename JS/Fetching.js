@@ -1,5 +1,6 @@
 import { AddingToBody } from "./AddToBody.js"
 import { Meo_Api, Anilist_Api, query } from "./Api.js"
+import { ShadowBody } from "./Shadow.js"
 
 var UserUrl = ""
 const Input = document.getElementById("InputBar")
@@ -11,8 +12,10 @@ async function GettingIMG() {
   const formData = new FormData();
   formData.append('image', imageFile);
   Fetching(formData)
+
   console.log(imageFile, 'img')
 }
+
 async function Fetching(formData) {
   UserUrl = Input.value
   try {
@@ -50,12 +53,11 @@ async function Fetching(formData) {
 
 }
 
-
-
 document.getElementById('file').addEventListener('change', handleFileSelect);
 function handleFileSelect(event) {
   const file = event.target.files[0];
   if (file) {
+    ShadowBody()
     GettingIMG()
   } else {
     console.log('No file selected');
@@ -64,7 +66,8 @@ function handleFileSelect(event) {
 // Add event listener for the 'keypress' event
 window.addEventListener('keypress', function (event) {
   if (event.key === 'Enter') {
-    // removeNodes()
+
+    ShadowBody()
     Fetching()
     console.log("User Enter url")
   }
@@ -80,11 +83,7 @@ window.addEventListener('keypress', function (event) {
 
 // }, 2000);
 
-// function removeNodes() {
-//   document.getElementById("Banner").remove()
-//   document.getElementById("Poster").remove()
-//   document.getElementById("Details").remove()
-// }
+
 export { UserUrl }
 
 
