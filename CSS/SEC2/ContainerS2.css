@@ -50,7 +50,7 @@
 }
 #Text-Container {
   /* width: clamp(300px, 85vw, 1632px); */
-  width: clamp(300px, 64vw, 1228px);
+  width: clamp(300px, 66vw, 1267px);
   height: 100%;
   display: flex;
   align-items: center;

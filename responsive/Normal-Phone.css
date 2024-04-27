@@ -2,9 +2,7 @@ html {
   font-size: 50%;
   overflow-y: hidden;
 }
-body {
-  overflow-y: hidden;
-}
+
 #InputBar-Container {
   width: clamp(285px, 319vw, 300px);
 }

@@ -1,32 +1,31 @@
 import { UserUrl } from "./1.Fetching.js"
 function AddingToBody(Meo_One, Ani_Data) {
-  let WholeBody = ``
-  let Poster = []
-  let Banner = []
-  let Info = []
-  Ani_Data.map((items) => {
-    console.log(items)
-    Poster.push(items.coverImage.extraLarge)
-    Banner.push(items.bannerImage)
-    Info.push(items.description)
-  })
-  Meo_One.map((item) => {
-    console.log(item)
-    let Name_E = item.anilist.title.english
-    let Name_R = item.anilist.title.romaji
-    let Ep = item.episode
-    let Video = item.video
-    let similarity = (item.similarity * 100).toFixed(2)
-    let TimeStart = (item.from / 60).toFixed(2)
-    const body = BodyHTML(Ep, similarity, TimeStart, Poster, Banner, Info, Video, Name_R, Name_E)
-    WholeBody += body
-    console.log(Name_E, 'name')
-  })
+    let WholeBody = ``
+    let Poster = []
+    let Banner = []
+    let Info = []
+    Ani_Data.map((items) => {
+        console.log(items)
+        Poster.push(items.coverImage.extraLarge)
+        Banner.push(items.bannerImage)
+        Info.push(items.description)
+    })
+    Meo_One.map((item) => {
+        console.log(item)
+        let Name_E = item.anilist.title.english
+        let Name_R = item.anilist.title.romaji
+        let Ep = item.episode
+        let Video = item.video
+        let similarity = (item.similarity * 100).toFixed(2)
+        let TimeStart = (item.from / 60).toFixed(2)
+        const body = BodyHTML(Ep, similarity, TimeStart, Poster, Banner, Info, Video, Name_R, Name_E)
+        WholeBody += body
+        console.log(Name_E, 'name')
+    })
 }
 function BodyHTML(Ep, similarity, TimeStart, Poster, Banner, Info, Video, Name_R, Name_E) {
-  let Body = `
+    let Body = `
        <div id="ContainerS2" class="animation">
-   <button id="btn2">X</button>
                 <div id="Banner">
                     <img id="imgBanner"
                         src="${Banner}" alt="">
@@ -67,12 +66,12 @@ function BodyHTML(Ep, similarity, TimeStart, Poster, Banner, Info, Video, Name_R
                 </div>
             </div>
     `
-  console.log(UserUrl)
-  AddingBodyToHTML(Body)
+    console.log(UserUrl)
+    AddingBodyToHTML(Body)
 }
 
 function AddingBodyToHTML(Body) {
-  document.getElementById("SEC-2").innerHTML = Body
+    document.getElementById("SEC-2").innerHTML = Body
 }
 
 

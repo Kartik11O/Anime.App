@@ -43,6 +43,8 @@ async function FetchingByIMG(formData) {
     AddingToBody(Meo_One, Ani_Map);
   } catch (error) {
     console.log(error, "Error Found");
+    alert("Error")
+    return
   }
 }
 
@@ -72,6 +74,8 @@ async function FetchingByLink() {
     AddingToBody(Meo_One, Ani_Map);
   } catch (error) {
     console.log(error, "Error Found");
+    alert("Error")
+    return
   }
 }
 
