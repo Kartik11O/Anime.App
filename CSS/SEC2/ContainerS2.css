@@ -8,7 +8,7 @@
 }
 #ContainerS2 {
   width: clamp(325px, 101vw, 1939px);
-  height: clamp(295px, 48vh, 441px);
+  height: clamp(331px, 48vh, 441px);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,8 +38,8 @@
 }
 #Poster {
   position: absolute;
-  width: clamp(230px, 12vw, 230px);
-  height: clamp(303px, 33vh, 303px);
+  width: clamp(200px, 12vw, 230px);
+  height: clamp(300px, 33vh, 303px);
   top: -110px;
   left: 41px;
 }
@@ -54,6 +54,7 @@
   height: 100%;
   display: flex;
   align-items: center;
+  gap: 10px;
 }
 #Info-Anime {
   width: clamp(652px, 34vw, 652px);

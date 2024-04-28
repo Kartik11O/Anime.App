@@ -8,3 +8,27 @@ html {
 #Para {
   font-size: 1.5rem;
 }
+#Poster-Container {
+  width: clamp(207px, 14.5vw, 278px);
+}
+#Info-Para {
+  font-size: 15px;
+  height: 14vh;
+  margin: 0;
+  padding: 2px 6px;
+}
+.Video-ContainerIN {
+  margin-top: 3rem;
+}
+#Poster {
+  width: clamp(170px, 22.4vw, 174.27px);
+  height: clamp(242px, 31vh, 242px);
+  left: 20px;
+  top: -63px;
+}
+main {
+  height: 101vh;
+}
+#SEC-2 {
+  overflow: hidden;
+}

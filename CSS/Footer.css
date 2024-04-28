@@ -61,7 +61,7 @@
 }
 #Info {
   position: relative;
-  width: clamp(384px, 20vw, 384px);
+  width: clamp(280px, 20vw, 384px);
   height: 100%;
   display: flex;
   justify-content: center;
