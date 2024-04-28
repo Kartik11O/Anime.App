@@ -33,7 +33,7 @@
 }
 #Poster-Container {
   position: relative;
-  width: clamp(279px, 14.5vw, 278px);
+  width: clamp(138px, 14.5vw, 278px);
   height: 100%;
 }
 #Poster {

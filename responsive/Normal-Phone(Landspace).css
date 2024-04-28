@@ -31,6 +31,9 @@ main {
   height: inherit;
 }
 .s2 {
-  font-size: 2.4rem;
-  line-height: 9px;
+  font-size: 2.4rem !important;
+  line-height: 9px !important;
+}
+#Para {
+  font-size: 1.3rem !important;
 }

@@ -7,3 +7,6 @@
 #Name-box {
   width: clamp(266px, 15vw, 266px);
 }
+#Para {
+  font-size: 1.1rem;
+}
