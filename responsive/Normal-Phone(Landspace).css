@@ -37,3 +37,6 @@ main {
 #Para {
   font-size: 1.3rem !important;
 }
+#Poster-Container {
+  width: clamp(138px, 14.5vw, 278px) !important;
+}
