@@ -3,8 +3,8 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   width: 100vw;
+  height: clamp(462px, 100vh, 919px);
 }
 #CONTAINER {
   position: relative;

@@ -50,7 +50,7 @@ html {
 #Poster-Container {
   position: relative;
   width: clamp(278px, 14.5vw, 278px);
-  height: 25vh;
+  height: clamp(100px, 25vh, 166px);
 }
 #Poster {
   position: absolute;

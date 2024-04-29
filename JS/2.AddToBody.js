@@ -1,4 +1,4 @@
-import { UserUrl } from "./1.Fetching.js"
+import { UserUrl, IMG } from "./1.Fetching.js"
 function AddingToBody(Meo_One, Ani_Data) {
     let WholeBody = ``
     let Poster = []

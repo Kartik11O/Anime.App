@@ -11,3 +11,24 @@ html {
 #btn {
   font-size: 1.2rem;
 }
+#Poster-Container {
+  width: clamp(247px, 14.5vw, 278px);
+}
+#Info-Para {
+  font-size: 15px;
+  height: 14vh;
+  margin: 0;
+  padding: 2px 6px;
+}
+.Video-ContainerIN {
+  margin-top: 3rem;
+}
+#Poster {
+  height: clamp(259px, 33vh, 303px);
+}
+main {
+  height: 101vh;
+}
+#SEC-2 {
+  overflow: hidden;
+}
