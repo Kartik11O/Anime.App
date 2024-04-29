@@ -2,13 +2,13 @@
   position: absolute;
   bottom: 0;
   width: clamp(325px, 101vw, 1939px);
-  height: clamp(295px, 48vh, 441px);
+  height: clamp(315px, 48vh, 441px);
   background-color: #000000d9;
   display: none;
 }
 #ContainerS2 {
   width: clamp(325px, 101vw, 1939px);
-  height: clamp(331px, 48vh, 441px);
+  height: clamp(315px, 48vh, 441px);
   display: flex;
   justify-content: center;
   align-items: center;

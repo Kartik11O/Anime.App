@@ -1,34 +1,34 @@
 html {
-  font-size: 50%;
+  font-size: 50% !important;
 }
 #Content-Container {
-  overflow-x: scroll;
+  overflow-x: scroll !important;
 }
 #Headline-Name {
-  margin: 0;
+  margin: 0 !important;
 }
 #Text-Container {
-  width: clamp(531px, 79.7vw, 531px);
+  width: clamp(531px, 79.7vw, 531px) !important;
 }
 #Info-Para {
-  font-size: 13px;
-  width: clamp(330.67px, 32.9vw, 643.67px);
-  height: clamp(115px, 26vh, 115px);
-  padding: 5px 6px;
-  height: clamp(112px, 24vh, 112px);
-  margin-left: 0px;
+  font-size: 13px !important;
+  width: clamp(330.67px, 32.9vw, 643.67px) !important;
+  height: clamp(115px, 26vh, 115px) !important;
+  padding: 5px 6px !important;
+  height: clamp(112px, 24vh, 112px) !important;
+  margin-left: 0px !important;
 }
 #Poster {
-  position: absolute;
-  top: 0px;
-  left: 4px;
-  height: 177px;
-  width: 126px;
-  z-index: 999999;
+  position: absolute !important;
+  top: 0px !important;
+  left: 4px !important;
+  height: 177px !important;
+  width: 126px !important;
+  z-index: 999999 !important;
 }
 main {
-  position: relative;
-  height: inherit;
+  position: relative !important;
+  height: inherit !important;
 }
 .s2 {
   font-size: 2.4rem !important;
