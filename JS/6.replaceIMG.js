@@ -1,6 +1,6 @@
 function handleViewportWidth() {
-    let NormalIMG = "IMG/up.png"
-    let PhoneIMG = "IMG/up2.png"
+    let NormalIMG = "IMG/up.jpg"
+    let PhoneIMG = "IMG/up2.jpg"
     const screenWidth = window.innerWidth;
     if (screenWidth <= 480) {
         $("#img").attr('src', PhoneIMG)
