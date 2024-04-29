@@ -4,12 +4,12 @@ main {
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: clamp(462px, 100vh, 919px);
+  height: clamp(462px, 100vh, 953px);
 }
 #CONTAINER {
   position: relative;
   width: 100vw;
-  height: clamp(462px, 100vh, 919px);
+  height: clamp(462px, 100vh, 953px);
   display: flex;
   justify-content: center;
   align-items: center;
