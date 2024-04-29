@@ -54,11 +54,10 @@ function BodyHTML(Ep, similarity, TimeStart, Poster, Banner, Info, Video, Name_R
                         <div id="Video-Container">
                             <div class="Video-ContainerIN">
                                 <img id="V1" class="Video"
-                                    src="${UserUrl}" data-img >
+                                    src="${UserUrl || IMG}" data-img >
                             </div>
                             <div class="Video-ContainerIN">
-                                <video id="V2" class="Video"
-                                    src="${Video}">
+                            <video autoplay="true" loop="true" muted="true" id="V2" class="Video" src="${Video}">
                             </div>
 
                         </div>

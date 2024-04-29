@@ -1,4 +1,3 @@
-import { UserUrl, IMG } from "./1.Fetching.js";
 function ShadowBody() {
     let ShadowB = `
     <div class="loading">
@@ -16,10 +15,6 @@ function ShadowAddingBody(ShadowB) {
     Thing();
 }
 function Thing() {
-    $("img[data-img]").attr("src", UserUrl);
-    setTimeout(() => {
-        $("img[data-img]").attr("src", IMG);
-    }, 4000);
     $("#SEC-2").fadeIn();
     $("#SEC-2").css({
         display: "flex",
